@@ -3,9 +3,9 @@
 Add and search for nodes in a binary tree with an easy-to-use, web-based
 visualization
 
-![Example of balanced tree](/photos/balanced.png)
+![Example of balanced tree]
 
-Inspired by Coding Train's [Binary Tree Visualization Challenge](https://thecodingtrain.com/CodingChallenges/065.2-binary-tree-viz.html)
+Inspired by Coding Train's [Binary Tree Visualization Challenge](https://visualgo.net/en/bst)
 
 ## What is a Binary Tree
 
@@ -14,30 +14,25 @@ children. The node to the left of any parent node must contain a value less than
 the value of the parent node, and the node to the right must contain a value
 greater than the value of the parent node.
 
-![Binary Tree Example](https://www.baeldung.com/wp-content/uploads/2017/12/Tree-1.jpg)
-
-For more information, see [this explanation](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Trees/trees.html)
-from Carnegie Mellon University
-
 ## Using the Visualization
 
 When the visualization is first opened, the screen will be empty
 
-![Blank visualization](/photos/blank.png)
+![Blank visualization]
 
 To add a node to the tree, click the **Add** button, and enter an integer for
 the new node to hold. Watch as the animation adds the node to the tree. In this
 case, green represents the node that was just added. To pan on the visualization,
 click and drag. To zoom in and out on the visualization, scroll up or down.
 
-![Single node](/photos/singlenode.png)
+![Single node]
 
 Click the **Add** button a few more times to add more nodes to the tree, and
 watch as their insertion is animated. To make the animation progress faster,
 move the **Animation Speed** slider farther to the right. Blue represents nodes
 that must be visited to insert the node into the correct location
 
-![Multiple nodes](/photos/manynodes.png)
+![Multiple nodes]
 
 To watch the binary tree search for a value in itself, slick the **Search**
 button, and enter an integer that you previously inserted into the tree. Blue
@@ -46,7 +41,7 @@ of the tree where the value will not be found, and green represents the node
 that was being searched for. Note that if no node is green, the value was not
 found.
 
-![Search Example](/photos/search.png)
+![Search Example]
 
 To clear the entire tree, click the **Clear** button. This will make your screen
 appear as it did when the visualization was first opened
@@ -60,7 +55,7 @@ If you do not want to wait for the insertion animation, click the **Quick Fill**
 button, which functions the same as the **Fill** button, but does not animate
 the insertion process. *Note: this also clears the current tree*
 
-![Fill Example](/photos/fill.png)
+![Fill Example]
 
 ## Code Structure
 * **Node.js** - Defines the Node class, the building block of the binary tree.
@@ -86,4 +81,3 @@ how each class functions**
 ## Future Ideas
 * Make the tree self-balancing using [AVL tree rotation](https://www.cise.ufl.edu/~nemo/cop3530/AVL-Tree-Rotations.pdf)
 * Add an animation for removing a node from the tree
-* Improve the performance of the Explorer class for larger trees with svg
