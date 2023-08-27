@@ -1,0 +1,11 @@
+{
+  "name": "binary-tree",
+  "version": "1.0.0",
+  "description": "Add and search for nodes in a binary tree with an easy-to-use, web-based\r visualization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
